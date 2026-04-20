@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Roel Dolendo Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -14,163 +17,183 @@
     @endif
 </head>
 <body>
-    <header>
-        <h1>
-            <span class="text1">MY</span>
-            <span class="text2">PROFILE</span>
-        </h1>
+    <header class="site-header">
+        <a href="#home" class="brand font-heading" aria-label="Roel Dolendo home">
+            <span class="brand-mark">RD</span>
+            <span>Roel Dolendo</span>
+        </a>
         <nav>
             <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home" class="scroll-fade">
-            <div class="info_home">
-                <div class="pic1">
-                    <img src="{{ asset('images/pic1.png') }}" alt="pic1">
+        <section id="home" class="hero section-shell scroll-fade">
+            <div class="hero-copy">
+                <p class="eyebrow live-badge"><span></span> BSIT student / backend-focused builder</p>
+                <h1 class="font-heading">Building secure systems for <span>digital value.</span></h1>
+                <p class="hero-text">
+                    I am Roel Ibo Dolendo, an Information Technology student building practical web experiences with backend logic, interface planning, and steady curiosity.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="button primary-button">View Projects</a>
+                    <a href="#about" class="button ghost-button">About Me</a>
                 </div>
+            </div>
 
-                <div class="social-icons">
-                    <a href="https://github.com/DolendoRoel" target="_blank" class="icon">
+            <div class="profile-panel" aria-label="Profile overview">
+                <div class="hero-grid"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="profile-avatar">
+                    <span class="font-heading">RD</span>
+                </div>
+                <div class="profile-card profile-card-main">
+                    <span class="card-label font-mono">Current path</span>
+                    <strong>Backend Developer</strong>
+                    <p>Laravel, JavaScript, Node.js, MySQL, and UI prototypes.</p>
+                </div>
+                <div class="floating-chip chip-top font-mono">BLOCK 01</div>
+                <div class="floating-chip chip-right font-mono">99.9% focus</div>
+                <div class="floating-chip chip-left font-mono">live build</div>
+                <div class="social-icons" aria-label="Social links">
+                    <a href="https://github.com/DolendoRoel" target="_blank" rel="noreferrer" class="icon" aria-label="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.figma.com/team_invite/redeem/OrZ5kuxNKd16ed2fLPqDxz" target="_blank" class="icon">
+                    <a href="https://www.figma.com/team_invite/redeem/OrZ5kuxNKd16ed2fLPqDxz" target="_blank" rel="noreferrer" class="icon" aria-label="Figma">
                         <i class="fab fa-figma"></i>
                     </a>
-                    <a href="https://t.me/mr_ruuu" target="_blank" class="icon">
+                    <a href="https://t.me/mr_ruuu" target="_blank" rel="noreferrer" class="icon" aria-label="Telegram">
                         <i class="fab fa-telegram"></i>
                     </a>
                 </div>
-
-                <div class="info">
-                    <h1>
-                        <span class="info1">Hello, </span>
-                        <span class="info2">It's Me</span>
-                    </h1>
-                    <h1>
-                        <span class="info3">Roel Ibo Dolendo</span>
-                    </h1>
-                    <h1>
-                        <span class="info4">And I'm a </span>
-                        <span class="info5">Information Technology </span>
-                        <span class="info6">Student</span>
-                    </h1>
-                </div>
             </div>
         </section>
 
-        <section id="about" class="scroll-fade">
-            <div class="info_about">
-                <h1>
-                    <span class="info7">
-                        Hi! I'm a 22-year-old Information Technology student with a passion for solving problems and creating efficient digital solutions. Currently pursuing a Bachelor of Science in Information Technology, I specialize in backend development and enjoy designing user experiences using Figma for prototyping.
-                    </span>
-                </h1>
-                <h1>
-                    <span class="info8">
-                        I enjoy building systems that are both functional and user-friendly, combining strong technical logic with intuitive design workflows. My ultimate goal is to become a skilled backend developer and contribute to impactful, innovative tech projects.
-                    </span>
-                </h1>
-                <h1>
-                    <span class="info9">
-                        Outside my studies, I explore new tech trends, collaborate on creative projects, and continuously strive to improve my skills as a developer and designer.
-                    </span>
-                </h1>
+        <section class="stats-band section-shell scroll-fade" aria-label="Portfolio highlights">
+            <div>
+                <strong class="font-mono">22</strong>
+                <span>Years Old</span>
+            </div>
+            <div>
+                <strong class="font-mono">BSIT</strong>
+                <span>Course</span>
+            </div>
+            <div>
+                <strong class="font-mono">3A</strong>
+                <span>Section</span>
+            </div>
+            <div>
+                <strong class="font-mono">6</strong>
+                <span>Projects</span>
             </div>
         </section>
 
-        <section id="skills" class="scroll-fade">
-            <div class="info_skills">
-                <h1 class="skills_title">Technical Skills</h1>
-                <div class="timeline">
-                    <div class="line"></div>
-                    <div class="circle">
-                        <div class="circle1">
-                            <h1>Frontend Development</h1>
-                            <ul>
-                                <li><b>HTML</b></li>
-                                <li><b>CSS</b></li>
-                                <li><b>Bootstrap</b></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="circle">
-                        <div class="circle2">
-                            <h1>Backend Development</h1>
-                            <ul>
-                                <li><b>JavaScript</b></li>
-                                <li><b>Node.js</b></li>
-                                <li><b>Express.js</b></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="circle">
-                        <div class="circle3">
-                            <h1>Database Management</h1>
-                            <ul>
-                                <li><b>MySQL</b></li>
-                                <li><b>MongoDB</b></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="circle">
-                        <div class="circle4">
-                            <h1>UI/UX Design</h1>
-                            <ul>
-                                <li><b>Figma</b></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <section id="about" class="about section-shell scroll-fade">
+            <div class="section-heading">
+                <p class="eyebrow">About</p>
+                <h2 class="font-heading">Practical systems, simple interfaces, steady growth.</h2>
+            </div>
+            <div class="about-grid">
+                <p>
+                    Hi! I'm a 22-year-old Information Technology student with a passion for solving problems and creating efficient digital solutions. Currently pursuing a Bachelor of Science in Information Technology, I specialize in backend development and enjoy designing user experiences using Figma for prototyping.
+                </p>
+                <p>
+                    I enjoy building systems that are both functional and user-friendly, combining strong technical logic with intuitive design workflows. My ultimate goal is to become a skilled backend developer and contribute to impactful, innovative tech projects.
+                </p>
+                <p>
+                    Outside my studies, I explore new tech trends, collaborate on creative projects, and continuously strive to improve my skills as a developer and designer.
+                </p>
             </div>
         </section>
 
-        <section id="projects" class="scroll-fade">
-            <div class="info_projects">
-                <h1 class="projects_title">Projects</h1>
-                <div class="cards-container">
-                    <div class="card">
-                        <img src="{{ asset('images/p1.jpg') }}" alt="p1">
-                        <h3>HTML, CSS</h3>
-                    </div>
+        <section id="skills" class="skills section-shell scroll-fade">
+            <div class="section-heading centered">
+                <p class="eyebrow">Skills</p>
+                <h2 class="font-heading">Technical Skills</h2>
+            </div>
+            <div class="skill-chain" aria-label="Technical skills timeline">
+                <article class="skill-node skill-node-left">
+                    <span class="corner corner-start"></span>
+                    <span class="corner corner-end"></span>
+                    <h3 class="font-heading">Frontend Development</h3>
+                    <p>HTML, CSS, and Bootstrap for responsive interface foundations.</p>
+                </article>
+                <span class="chain-dot font-mono">1</span>
 
-                    <div class="card">
-                        <img src="{{ asset('images/p2.jpg') }}" alt="p2">
-                        <h3>HTML, CSS, JavaScript</h3>
-                    </div>
+                <article class="skill-node skill-node-right">
+                    <span class="corner corner-start"></span>
+                    <span class="corner corner-end"></span>
+                    <h3 class="font-heading">Backend Development</h3>
+                    <p>JavaScript, Node.js, and Express.js for application behavior.</p>
+                </article>
+                <span class="chain-dot font-mono">2</span>
 
-                    <div class="card">
-                        <img src="{{ asset('images/p3.jpg') }}" alt="p3">
-                        <h3>HTML, CSS, JavaScript</h3>
-                    </div>
+                <article class="skill-node skill-node-left">
+                    <span class="corner corner-start"></span>
+                    <span class="corner corner-end"></span>
+                    <h3 class="font-heading">Database Management</h3>
+                    <p>MySQL and MongoDB for storing, shaping, and managing data.</p>
+                </article>
+                <span class="chain-dot font-mono">3</span>
 
-                    <div class="card">
-                        <img src="{{ asset('images/p4.jpg') }}" alt="p4">
-                        <h3>HTML, CSS, JavaScript, MySQL</h3>
-                    </div>
+                <article class="skill-node skill-node-right">
+                    <span class="corner corner-start"></span>
+                    <span class="corner corner-end"></span>
+                    <h3 class="font-heading">UI/UX Design</h3>
+                    <p>Figma prototypes for planning clearer and easier user journeys.</p>
+                </article>
+                <span class="chain-dot font-mono">4</span>
+            </div>
+        </section>
 
-                    <div class="card">
-                        <img src="{{ asset('images/p5.jpg') }}" alt="p5">
-                        <h3>HTML, CSS, JavaScript, Express.js, Node.js</h3>
-                    </div>
-
-                    <div class="card">
-                        <img src="{{ asset('images/p6.jpg') }}" alt="p6">
-                        <h3>HTML, CSS, JavaScript, MySQL</h3>
-                    </div>
-                </div>
+        <section id="projects" class="projects section-shell scroll-fade">
+            <div class="section-heading">
+                <p class="eyebrow">Selected work</p>
+                <h2 class="font-heading">Project Blocks</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card large-card">
+                    <div class="project-visual font-mono">01</div>
+                    <h3 class="font-heading">Static Website</h3>
+                    <p>HTML and CSS</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual font-mono">02</div>
+                    <h3 class="font-heading">Interactive Page</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual font-mono">03</div>
+                    <h3 class="font-heading">JavaScript Build</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual font-mono">04</div>
+                    <h3 class="font-heading">Database System</h3>
+                    <p>HTML, CSS, JavaScript, MySQL</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual font-mono">05</div>
+                    <h3 class="font-heading">Node Application</h3>
+                    <p>HTML, CSS, JavaScript, Express.js, Node.js</p>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual font-mono">06</div>
+                    <h3 class="font-heading">MySQL Project</h3>
+                    <p>HTML, CSS, JavaScript, MySQL</p>
+                </article>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 ROEL DOLENDO FROM BSIT - 3A.</p>
+    <footer class="site-footer">
+        <p>&copy; 2024 Roel Dolendo from BSIT - 3A.</p>
     </footer>
 
     @unless (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
