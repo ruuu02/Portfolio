@@ -159,9 +159,28 @@
             </div>
             <div class="project-grid">
                 <article class="project-card large-card">
-                    <div class="project-visual font-mono">01</div>
-                    <h3 class="font-heading">Static Website</h3>
-                    <p>HTML and CSS</p>
+                    <div class="project-preview">
+                        <iframe
+                            src="https://ojtwebdev.vercel.app/"
+                            title="OJT Web Dev website preview"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="project-card-row">
+                        <div>
+                            <h3 class="font-heading">OJT Web Dev</h3>
+                            <p>Live website preview</p>
+                        </div>
+                        <a
+                            href="https://ojtwebdev.vercel.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                            class="project-link font-mono"
+                        >
+                            Open Website
+                        </a>
+                    </div>
                 </article>
                 <article class="project-card">
                     <div class="project-visual font-mono">02</div>
