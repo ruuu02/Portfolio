@@ -170,7 +170,7 @@
                     <div class="project-card-row">
                         <div>
                             <h3 class="font-heading">OJT Web Dev</h3>
-                            <p>Live website preview</p>
+                            <p>Laravel, Blade, PHP, CSS, JavaScript, MySQL</p>
                         </div>
                         <a
                             href="https://ojtwebdev.vercel.app/"
