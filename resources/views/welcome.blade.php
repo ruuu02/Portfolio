@@ -200,7 +200,8 @@
                         <iframe
                             src="https://ojtwebdev.vercel.app/"
                             title="OJT Web Dev website preview"
-                            loading="lazy"
+                            loading="eager"
+                            scrolling="yes"
                             referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
                     </div>
