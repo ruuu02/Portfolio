@@ -24,6 +24,12 @@ foreach ([
     'LOG_CHANNEL' => 'stderr',
     'QUEUE_CONNECTION' => 'sync',
     'SESSION_DRIVER' => 'array',
+    'VIEW_COMPILED_PATH' => $storagePath.'/framework/views',
+    'APP_CONFIG_CACHE' => $storagePath.'/framework/cache/config.php',
+    'APP_EVENTS_CACHE' => $storagePath.'/framework/cache/events.php',
+    'APP_PACKAGES_CACHE' => $storagePath.'/framework/cache/packages.php',
+    'APP_ROUTES_CACHE' => $storagePath.'/framework/cache/routes.php',
+    'APP_SERVICES_CACHE' => $storagePath.'/framework/cache/services.php',
 ] as $key => $value) {
     putenv($key.'='.$value);
     $_ENV[$key] = $value;
