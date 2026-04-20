@@ -824,8 +824,7 @@ nav a:focus-visible,
     border-radius: 18px;
     background: #050506;
     box-shadow: var(--green-glow);
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
 }
 
 .project-preview::before,
@@ -854,10 +853,10 @@ nav a:focus-visible,
 
 .project-preview iframe {
     display: block;
-    width: 1440px;
-    height: 1100px;
+    width: 160%;
+    height: 512px;
     border: 0;
-    transform: scale(0.5);
+    transform: scale(0.625);
     transform-origin: top left;
 }
 
@@ -1208,9 +1207,9 @@ nav a:focus-visible,
     }
 
     .project-preview iframe {
-        width: 900px;
-        height: 1100px;
-        transform: scale(0.46);
+        width: 200%;
+        height: 520px;
+        transform: scale(0.5);
     }
 
     .about,
@@ -1334,9 +1333,9 @@ nav a:focus-visible,
     }
 
     .project-preview iframe {
-        width: 760px;
-        height: 1050px;
-        transform: scale(0.42);
+        width: 220%;
+        height: 560px;
+        transform: scale(0.455);
     }
 
     .about-grid p,
