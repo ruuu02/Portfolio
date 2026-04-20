@@ -118,6 +118,10 @@
                             <span>Bootstrap</span>
                         </li>
                         <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+                            <span>JavaScript</span>
+                        </li>
+                        <li>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel Blade logo">
                             <span>Blade</span>
                         </li>
@@ -135,9 +139,9 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel logo">
                             <span>Laravel</span>
                         </li>
-                        <li>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
-                            <span>JavaScript</span>
+                        <li class="skill-icon-plain">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django logo">
+                            <span>Django</span>
                         </li>
                         <li>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js logo">
