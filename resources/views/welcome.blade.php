@@ -140,24 +140,14 @@
             </div>
             <div class="project-grid">
                 <article class="project-card large-card">
-                    <a
-                        href="https://ojtwebdev.vercel.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        class="project-preview"
-                        aria-label="Open OJT Web Dev website preview"
-                    >
-                        <span class="preview-browser">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                        <span class="preview-content">
-                            <span class="preview-kicker font-mono">Live Preview</span>
-                            <strong class="font-heading">OJT Web Dev</strong>
-                            <span>Laravel project website</span>
-                        </span>
-                    </a>
+                    <div class="project-preview">
+                        <iframe
+                            src="https://ojtwebdev.vercel.app/"
+                            title="OJT Web Dev website preview"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
                     <div class="project-card-row">
                         <div>
                             <h3 class="font-heading">OJT Web Dev</h3>
