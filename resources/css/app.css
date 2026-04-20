@@ -675,6 +675,50 @@ nav a:focus-visible,
     margin-left: auto;
 }
 
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-node-right .skill-icons {
+    justify-content: flex-end;
+}
+
+.skill-icons li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.045);
+    box-shadow: 0 0 18px -14px rgba(34, 197, 94, 0.8);
+}
+
+.skill-icons img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.skill-icon-plain img {
+    filter: invert(1);
+}
+
+.skill-icons span {
+    color: var(--foreground);
+    font-family: "JetBrains Mono", Consolas, monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
 .project-card:hover {
     transform: translateY(-6px);
     border-color: rgba(34, 197, 94, 0.5);
@@ -992,6 +1036,10 @@ nav a:focus-visible,
     .skill-node-right p {
         max-width: 560px;
         margin-left: 0;
+    }
+
+    .skill-node-right .skill-icons {
+        justify-content: flex-start;
     }
 
     .skill-node-left::after,
@@ -1328,6 +1376,25 @@ nav a:focus-visible,
     .skill-node p {
         font-size: 0.92rem;
         line-height: 1.6;
+    }
+
+    .skill-icons {
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .skill-icons li {
+        min-height: 38px;
+        padding: 7px 10px;
+    }
+
+    .skill-icons img {
+        width: 21px;
+        height: 21px;
+    }
+
+    .skill-icons span {
+        font-size: 0.64rem;
     }
 
     .skill-node-left::after,

@@ -55,7 +55,7 @@
                 </div>
                 <div class="profile-card profile-card-main">
                     <span class="card-label font-mono">Current path</span>
-                    <strong>Backend Developer</strong>
+                    <strong>Web Developer</strong>
                     <p>Laravel, JavaScript, Node.js, MySQL, and UI prototypes.</p>
                 </div>
                 <div class="floating-chip chip-top font-mono">BLOCK 01</div>
@@ -103,7 +103,25 @@
                     <span class="corner corner-start"></span>
                     <span class="corner corner-end"></span>
                     <h3 class="font-heading">Frontend Development</h3>
-                    <p>HTML, CSS, and Bootstrap for responsive interface foundations.</p>
+                    <p>Responsive interface foundations with Blade views.</p>
+                    <ul class="skill-icons" aria-label="Frontend technologies">
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5 logo">
+                            <span>HTML</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3 logo">
+                            <span>CSS</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap logo">
+                            <span>Bootstrap</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel Blade logo">
+                            <span>Blade</span>
+                        </li>
+                    </ul>
                 </article>
                 <span class="chain-dot font-mono">1</span>
 
@@ -111,7 +129,25 @@
                     <span class="corner corner-start"></span>
                     <span class="corner corner-end"></span>
                     <h3 class="font-heading">Backend Development</h3>
-                    <p>JavaScript, Node.js, and Express.js for application behavior.</p>
+                    <p>Application logic, routing, APIs, and server-side workflows.</p>
+                    <ul class="skill-icons" aria-label="Backend technologies">
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel logo">
+                            <span>Laravel</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+                            <span>JavaScript</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js logo">
+                            <span>Node.js</span>
+                        </li>
+                        <li class="skill-icon-plain">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js logo">
+                            <span>Express</span>
+                        </li>
+                    </ul>
                 </article>
                 <span class="chain-dot font-mono">2</span>
 
@@ -119,7 +155,17 @@
                     <span class="corner corner-start"></span>
                     <span class="corner corner-end"></span>
                     <h3 class="font-heading">Database Management</h3>
-                    <p>MySQL and MongoDB for storing, shaping, and managing data.</p>
+                    <p>Storing, shaping, and managing application data.</p>
+                    <ul class="skill-icons" aria-label="Database technologies">
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL logo">
+                            <span>MySQL</span>
+                        </li>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB logo">
+                            <span>MongoDB</span>
+                        </li>
+                    </ul>
                 </article>
                 <span class="chain-dot font-mono">3</span>
 
@@ -127,7 +173,13 @@
                     <span class="corner corner-start"></span>
                     <span class="corner corner-end"></span>
                     <h3 class="font-heading">UI/UX Design</h3>
-                    <p>Figma prototypes for planning clearer and easier user journeys.</p>
+                    <p>Planning clearer and easier user journeys through prototypes.</p>
+                    <ul class="skill-icons" aria-label="Design technologies">
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma logo">
+                            <span>Figma</span>
+                        </li>
+                    </ul>
                 </article>
                 <span class="chain-dot font-mono">4</span>
             </div>
