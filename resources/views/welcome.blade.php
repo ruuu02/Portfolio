@@ -82,7 +82,7 @@
             </div>
             <div class="about-grid">
                 <p>
-                    Hi! I'm a 22-year-old Information Technology student with a passion for solving problems and creating efficient digital solutions. Currently pursuing a Bachelor of Science in Information Technology, I specialize in backend development and enjoy designing user experiences using Figma for prototyping.
+                    Hi! I'm a IT / Web Developer with a passion for solving problems and creating efficient digital solutions. Currently pursuing a Bachelor of Science in Information Technology, I specialize in backend development and enjoy designing user experiences using Figma for prototyping.
                 </p>
                 <p>
                     I enjoy building systems that are both functional and user-friendly, combining strong technical logic with intuitive design workflows. My ultimate goal is to become a skilled backend developer and contribute to impactful, innovative tech projects.
