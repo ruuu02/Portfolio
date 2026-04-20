@@ -35,10 +35,10 @@
     <main>
         <section id="home" class="hero section-shell scroll-fade">
             <div class="hero-copy">
-                <p class="eyebrow live-badge"><span></span> BSIT student / backend-focused builder</p>
+                <p class="eyebrow live-badge"><span></span> IT / Web Developer</p>
                 <h1 class="font-heading">Building secure systems for <span>digital value.</span></h1>
                 <p class="hero-text">
-                    I am Roel Ibo Dolendo, an Information Technology student building practical web experiences with backend logic, interface planning, and steady curiosity.
+                    I am Roel Ibo Dolendo, an Information Technology experience in building modern web technologies. Experienced in creating systems that manage data, support user accounts, and improve online workflows
                 </p>
                 <div class="hero-actions">
                     <a href="#projects" class="button primary-button">View Projects</a>
@@ -72,25 +72,6 @@
                         <i class="fab fa-telegram"></i>
                     </a>
                 </div>
-            </div>
-        </section>
-
-        <section class="stats-band section-shell scroll-fade" aria-label="Portfolio highlights">
-            <div>
-                <strong class="font-mono">22</strong>
-                <span>Years Old</span>
-            </div>
-            <div>
-                <strong class="font-mono">BSIT</strong>
-                <span>Course</span>
-            </div>
-            <div>
-                <strong class="font-mono">3A</strong>
-                <span>Section</span>
-            </div>
-            <div>
-                <strong class="font-mono">6</strong>
-                <span>Projects</span>
             </div>
         </section>
 

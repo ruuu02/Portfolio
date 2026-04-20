@@ -456,46 +456,6 @@ nav a:focus-visible,
     box-shadow: var(--accent-glow);
 }
 
-.stats-band {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin-bottom: 72px;
-    border-block: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(15, 17, 21, 0.6);
-    backdrop-filter: blur(10px);
-}
-
-.stats-band div {
-    min-height: 132px;
-    padding: 28px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.stats-band div:last-child {
-    border-right: 0;
-}
-
-.stats-band strong {
-    display: block;
-    color: transparent;
-    background: linear-gradient(to right, var(--primary), var(--green));
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-size: clamp(1.9rem, 4vw, 3.2rem);
-    line-height: 1;
-}
-
-.stats-band span {
-    display: block;
-    margin-top: 10px;
-    color: var(--muted);
-    font-family: "JetBrains Mono", Consolas, monospace;
-    font-size: 0.78rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-}
-
 .about,
 .skills,
 .projects {
@@ -1116,7 +1076,6 @@ nav a:focus-visible,
         display: none;
     }
 
-    .stats-band,
     .about-grid,
     .project-grid {
         grid-template-columns: 1fr;
@@ -1149,16 +1108,6 @@ nav a:focus-visible,
     .skill-node-right::after {
         left: -40px;
         width: 30px;
-    }
-
-    .stats-band div {
-        min-height: 112px;
-        border-right: 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .stats-band div:last-child {
-        border-bottom: 0;
     }
 
     .large-card {
